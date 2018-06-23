@@ -1,5 +1,5 @@
 ---
-description: debug 5种开启模式
+description: debug 6种开启模式
 ---
 
 # 2.2 Debug模式详解
@@ -16,4 +16,5 @@ description: debug 5种开启模式
 3.  app.debug = True;
 4. 通过配置参数的形式：app.config.update\(DEBUG=True\)
 5. 通过配置文件app.config.from\_object\(config\)，其中配置文件信息：DEBUG = True
+6. app.config.from\_pyfile\('config.py'\); 其中config.py 可以是其他类型的文本文件
 

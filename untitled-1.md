@@ -26,7 +26,7 @@ URL地址的构成：[s](http://www.xxx.com/page/s)cheme://host:port/path/?query
 
 ## web服务器和应用服务器+web应用框架
 
-** Web服务器**： 负责处理http请求，响应静态文件，常用的有Apache, Ngnix，IIS
+ **Web服务器**： 负责处理http请求，响应静态文件，常用的有Apache, Ngnix，IIS
 
 **应用服务器：**负责处理逻辑的服务器。比如：php，python代码，是不能直接通过Ngnix来处理的，只能通过应用服务器来处理，常见的应用服务器有：uwsgi, tomcat 等。
 
